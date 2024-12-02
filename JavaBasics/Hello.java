@@ -23,5 +23,23 @@ class Test{
 		System.out.println("div="+c);
 		c=a%b;
 		System.out.println("mod="+c);
+		//relational
+		System.out.println("Enter num for a=");
+		a=sc.nextInt();
+		System.out.println("Enter num for b=");
+		b=sc.nextInt();
+		boolean r;
+		r=(a==b);
+		System.out.println("=="+r);
+		r=(a!=b);
+		System.out.println("!="+r);
+		r=(a<b);
+		System.out.println("<"+r);
+		r=(a>b);
+		System.out.println(">"+r);
+		r=(a<=b);
+		System.out.println("<="+r);
+		r=(a>=b);
+		System.out.println(">="+r);
 	}
 }
