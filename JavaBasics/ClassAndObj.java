@@ -12,7 +12,7 @@ class A{
 	}
 }
 
-public class Test {
+public class ClassAndObj{
 	public static void main(String[] args){
 		//predefined methods are directly called
 		Double sqrtans=Math.sqrt(5);
@@ -58,7 +58,7 @@ class Employee{
 		}
 }
 
-public class Test{
+public class ClassAndObj{
 	public static void main(String[] args){
 		//object of class 
 		Employee e1=new Employee(); //e1 is the object
